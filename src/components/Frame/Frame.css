@@ -1,0 +1,65 @@
+.ant-layout{background-color: #fff;}
+.header{
+    background-color: #fff;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+   
+}
+.Sider{
+    background-color: #1e04a8;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+    padding-top: 50px;
+    /* height: calc(100vh - 85px); */
+}
+.logo{
+    width: 127px;
+    height: 33px;
+    font-size: 24px;
+    font-family: PingFang SC, PingFang SC-Bold;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.seach_input{
+    width: 400px;
+    height: 40px;
+  }
+  .logo span{
+    color: #5164FD;
+  }
+  .seach_box{position: absolute;right: 140px;}
+  .Avatar{width: 19px;height: 19px;}
+  .seach_input{border-radius: 30px;margin-right: 18px;}
+  .search_out{margin-right: 12px;cursor: pointer;color: #999999;}
+  .ant-menu-vertical .ant-menu-item{
+    background: #1e04a8;
+    font-size: 16px;
+    font-size: 16px;
+    font-family: PingFang SC, PingFang SC-Bold;
+    font-weight: 700;
+    text-align: left;
+    color: #fff;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    line-height: initial;
+    height: initial;
+  }
+  .Menu{
+      background-color: #1e04a8;
+  }
+.menu_item{
+  align-items: center;
+  display: flex;
+}
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #1e04a8;
+    color: #FEE26F;
+}
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left{
+    border-right: 1px solid #1e04a8;
+}
