@@ -24,7 +24,7 @@ const Home: React.FC = () => {
              </div>
           </Col>
       </Row>
-      <Row className="home_box1">
+      <Row className="home_box2">
       <Col  span={5} offset={2}>
          <div className="cruent_box"> 
            <h3 className="home_title">XP 当前价格</h3>

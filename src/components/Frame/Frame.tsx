@@ -73,7 +73,7 @@ const CancelClickSearch = () => {
             })}
           </Menu>
         </Sider>
-        <Content style={{ padding: '20px 0', minHeight: "calc(100vh - 85px)", background: '#fff', margin: '0 0px 0 0px' }}>{props.children}</Content>
+        <Content style={{ padding: '20px 0', minHeight: "calc(100vh - 85px)", background: '#FAFAFA', margin: '0 0px 0 0px' }}>{props.children}</Content>
 
       </Layout>
 

@@ -2,8 +2,8 @@
     display: flex;
     border: 1px solid #e5e5e5;
     padding: 10px;
-   
-    min-width: 230px;
+   background-color: #fff;
+    min-width: 32%;
     border-radius: 20px;
     align-items: center;
     min-height: 140px;

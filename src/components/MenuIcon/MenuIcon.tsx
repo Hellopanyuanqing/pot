@@ -17,7 +17,7 @@ const MenuIcon: React.FC<IconProps> = ({
   
   
   return (
-     <span className="icon_box"><img src={selected?iconList[iconName+'Select']:iconList[iconName]}/></span>
+     <span className={`icon_box ${selected?"select_menu":""}`}><img src={selected?iconList[iconName+'Select']:iconList[iconName]}/></span>
   )
 }
 

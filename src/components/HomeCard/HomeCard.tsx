@@ -7,7 +7,7 @@ interface CardProps {
   icon:string
   title: string,
   num:string,
-  probability: string
+  probability?: string
 
 }
 

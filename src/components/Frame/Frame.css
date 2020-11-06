@@ -1,6 +1,6 @@
-.ant-layout{background-color: #fff;}
+.ant-layout{background-color: #fafafa;}
 .header{
-    background-color: #fff;
+    background-color: #FAFAFA;
     height: 85px;
     display: flex;
     justify-content: space-between;
@@ -56,6 +56,7 @@
   align-items: center;
   display: flex;
 }
+.ant-layout-content{background: #FAFAFA;}
   .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
     background-color: #1e04a8;
     color: #FEE26F;

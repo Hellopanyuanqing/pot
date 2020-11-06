@@ -17,6 +17,7 @@
     min-height: 100px;
     justify-content: space-between;
     margin-bottom: 15px;
+    background-color: #fff;
 }
 .Statis_card_title{
     font-size: 18px;
@@ -32,6 +33,7 @@
     font-weight: 500;
     text-align: left;
     color: #999999;
+    margin-bottom: initial;
 }
 .card_left{width: 75%;}
 .Statis_data_box{
